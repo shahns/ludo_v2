@@ -1,0 +1,5 @@
+<map id="UIManager::clean" name="UIManager::clean">
+<area shape="rect" id="node2" href="$class_game_manager.html#a1916248eb8f1ee5452f9a1b314b871b4" title="GameManager::handleEvents" alt="" coords="179,5,373,32"/>
+<area shape="rect" id="node3" href="$class_game_manager.html#afbf874399ea73962362a989697b72ca2" title="GameManager::playerStatus\lUpdate" alt="" coords="182,57,370,98"/>
+<area shape="rect" id="node4" href="$class_game_manager.html#a50b889e7789dd87fc9b9a4583b4618b3" title="GameManager::running" alt="" coords="421,64,579,91"/>
+</map>

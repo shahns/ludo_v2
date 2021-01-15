@@ -1,0 +1,4 @@
+<map id="UIManager::init" name="UIManager::init">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#aa459ba653f70c446ab0928523474c06c" title="UIManager::requestPlayer\lTextureUpdate" alt="" coords="164,5,339,47"/>
+<area shape="rect" id="node3" href="$class_game_manager.html#a954b639233b67d9530fbad53fb29353b" title="GameManager::requestPlayer\lTextureUpdate" alt="" coords="387,5,581,47"/>
+</map>

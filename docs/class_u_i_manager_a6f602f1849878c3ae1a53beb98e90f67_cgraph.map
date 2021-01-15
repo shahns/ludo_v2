@@ -1,0 +1,4 @@
+<map id="UIManager::renderNewTexture" name="UIManager::renderNewTexture">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a128ac7faf2858362d1a1a537dc6d4879" title="UIManager::setTexture" alt="" coords="255,5,411,32"/>
+<area shape="rect" id="node3" href="$class_renderer.html#a10f2bfcb17999fec104e66811117cee0" title="Renderer::loadTexture" alt="" coords="459,5,609,32"/>
+</map>

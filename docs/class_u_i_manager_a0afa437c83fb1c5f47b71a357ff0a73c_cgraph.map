@@ -1,0 +1,5 @@
+<map id="UIManager::onboarding" name="UIManager::onboarding">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a6f602f1849878c3ae1a53beb98e90f67" title="UIManager::renderNewTexture" alt="" coords="211,5,412,32"/>
+<area shape="rect" id="node3" href="$class_u_i_manager.html#a128ac7faf2858362d1a1a537dc6d4879" title="UIManager::setTexture" alt="" coords="460,5,616,32"/>
+<area shape="rect" id="node4" href="$class_renderer.html#a10f2bfcb17999fec104e66811117cee0" title="Renderer::loadTexture" alt="" coords="664,5,815,32"/>
+</map>

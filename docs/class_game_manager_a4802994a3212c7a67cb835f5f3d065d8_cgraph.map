@@ -1,0 +1,10 @@
+<map id="GameManager::performOnBoarding" name="GameManager::performOnBoarding">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a0afa437c83fb1c5f47b71a357ff0a73c" title="UIManager::onboarding" alt="" coords="300,5,457,32"/>
+<area shape="rect" id="node6" href="$class_game_manager.html#a62826e5ae002af0b6e152dcefd02a889" title="GameManager::setGameType" alt="" coords="280,56,477,83"/>
+<area shape="rect" id="node7" href="$class_u_i_manager.html#a9e3f1eaecc52b40e1367bfc0562bc95b" title="UIManager::showRules" alt="" coords="299,107,458,133"/>
+<area shape="rect" id="node9" href="$class_u_i_manager.html#a3596b4f8b73d212225b2b789dc72f39e" title="UIManager::createBoard" alt="" coords="297,157,461,184"/>
+<area shape="rect" id="node3" href="$class_u_i_manager.html#a6f602f1849878c3ae1a53beb98e90f67" title="UIManager::renderNewTexture" alt="" coords="532,5,733,32"/>
+<area shape="rect" id="node4" href="$class_u_i_manager.html#a128ac7faf2858362d1a1a537dc6d4879" title="UIManager::setTexture" alt="" coords="788,5,944,32"/>
+<area shape="rect" id="node5" href="$class_renderer.html#a10f2bfcb17999fec104e66811117cee0" title="Renderer::loadTexture" alt="" coords="992,5,1143,32"/>
+<area shape="rect" id="node8" href="$class_u_i_manager.html#a53c2921e74922bf9715ed3972f62453a" title="UIManager::showPopupMessage" alt="" coords="525,107,740,133"/>
+</map>

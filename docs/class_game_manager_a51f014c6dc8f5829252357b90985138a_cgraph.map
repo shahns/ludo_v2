@@ -1,0 +1,6 @@
+<map id="GameManager::gameStatusUpdate" name="GameManager::gameStatusUpdate">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a16939a7872b447ca7adf9dcfcf6edcbd" title="UIManager::renderClear" alt="" coords="280,5,441,32"/>
+<area shape="rect" id="node3" href="$class_u_i_manager.html#a2bcf4eb771ea286f02af658ed4b365b4" title="UIManager::drawBoard" alt="" coords="283,56,439,83"/>
+<area shape="rect" id="node4" href="$class_board.html#a1845216283a171939dcb477dce3a17b8" title="Board::drawBoard" alt="" coords="489,56,616,83"/>
+<area shape="rect" id="node5" href="$class_renderer.html#afbbd4cbf5fd667c539754471c2b30b22" title="Renderer::draw" alt="" coords="664,56,775,83"/>
+</map>

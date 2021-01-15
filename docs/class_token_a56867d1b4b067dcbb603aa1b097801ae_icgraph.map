@@ -1,0 +1,6 @@
+<map id="Token::incrPosIndex" name="Token::incrPosIndex">
+<area shape="rect" id="node2" href="$class_game_manager.html#a616992f8ea9ddd41262b9f3bfdf7af14" title="GameManager::killEnemy" alt="" coords="198,31,370,57"/>
+<area shape="rect" id="node5" href="$class_go_t_token.html#a3e884c912255a2f6a04f4327a84da580" title="GoTToken::useOwnPower" alt="" coords="196,81,372,108"/>
+<area shape="rect" id="node3" href="$class_game_manager.html#ae34b97696f44c9bfef87bd305343d415" title="GameManager::askToMoveToken" alt="" coords="420,5,639,32"/>
+<area shape="rect" id="node4" href="$class_game_manager.html#af1a0aeaabcf6f9ca80a1847e5b045d81" title="GameManager::setIsMovement\lAllowed" alt="" coords="687,23,892,65"/>
+</map>

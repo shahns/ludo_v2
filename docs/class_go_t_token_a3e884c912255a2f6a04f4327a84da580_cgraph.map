@@ -1,0 +1,5 @@
+<map id="GoTToken::useOwnPower" name="GoTToken::useOwnPower">
+<area shape="rect" id="node2" href="$class_token.html#a95997b4fdc6f4d7e3d123e18b6890e63" title="Token::getPlayerColour" alt="" coords="229,5,388,32"/>
+<area shape="rect" id="node3" href="$class_token.html#a8f6a9fd8cbe49e56a8997208133f0110" title="Token::getPosIndex" alt="" coords="239,56,378,83"/>
+<area shape="rect" id="node4" href="$class_token.html#a56867d1b4b067dcbb603aa1b097801ae" title="Token::incrPosIndex" alt="" coords="237,107,380,133"/>
+</map>

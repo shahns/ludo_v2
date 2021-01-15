@@ -1,0 +1,4 @@
+<map id="GameManager::killEnemy" name="GameManager::killEnemy">
+<area shape="rect" id="node2" href="$class_game_manager.html#ae34b97696f44c9bfef87bd305343d415" title="GameManager::askToMoveToken" alt="" coords="225,5,444,32"/>
+<area shape="rect" id="node3" href="$class_game_manager.html#af1a0aeaabcf6f9ca80a1847e5b045d81" title="GameManager::setIsMovement\lAllowed" alt="" coords="492,23,697,65"/>
+</map>

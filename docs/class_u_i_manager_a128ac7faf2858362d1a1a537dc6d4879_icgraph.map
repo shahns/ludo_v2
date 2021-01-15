@@ -1,0 +1,6 @@
+<map id="UIManager::setTexture" name="UIManager::setTexture">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a6f602f1849878c3ae1a53beb98e90f67" title="UIManager::renderNewTexture" alt="" coords="209,13,411,39"/>
+<area shape="rect" id="node3" href="$class_u_i_manager.html#a0afa437c83fb1c5f47b71a357ff0a73c" title="UIManager::onboarding" alt="" coords="459,13,616,39"/>
+<area shape="rect" id="node4" href="$class_game_manager.html#a4802994a3212c7a67cb835f5f3d065d8" title="GameManager::performOnBoarding" alt="" coords="664,13,891,39"/>
+<area shape="rect" id="node5" href="$class_game_manager.html#af1a0aeaabcf6f9ca80a1847e5b045d81" title="GameManager::setIsMovement\lAllowed" alt="" coords="939,5,1144,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Board::drawBoard" name="Board::drawBoard">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a2bcf4eb771ea286f02af658ed4b365b4" title="UIManager::drawBoard" alt="" coords="180,5,336,32"/>
+<area shape="rect" id="node3" href="$class_game_manager.html#a51f014c6dc8f5829252357b90985138a" title="GameManager::gameStatusUpdate" alt="" coords="384,5,611,32"/>
+</map>

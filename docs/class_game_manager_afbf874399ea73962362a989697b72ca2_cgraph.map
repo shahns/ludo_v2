@@ -1,0 +1,4 @@
+<map id="GameManager::playerStatusUpdate" name="GameManager::playerStatusUpdate">
+<area shape="rect" id="node2" href="$class_u_i_manager.html#a53c2921e74922bf9715ed3972f62453a" title="UIManager::showPopupMessage" alt="" coords="241,5,456,32"/>
+<area shape="rect" id="node3" href="$class_u_i_manager.html#ae9a42d46c6c44d10d096e2de2573d794" title="UIManager::clean" alt="" coords="286,56,411,83"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="UIManager::showPopupMessage" name="UIManager::showPopupMessage">
+<area shape="rect" id="node2" href="$class_game_manager.html#a5d678a8e8bad81ec5552ae23c2cd8559" title="GameManager::showGoTStatus" alt="" coords="268,5,477,32"/>
+<area shape="rect" id="node3" href="$class_game_manager.html#afbf874399ea73962362a989697b72ca2" title="GameManager::playerStatus\lUpdate" alt="" coords="279,57,467,98"/>
+<area shape="rect" id="node5" href="$class_game_manager.html#a616992f8ea9ddd41262b9f3bfdf7af14" title="GameManager::killEnemy" alt="" coords="287,123,459,149"/>
+<area shape="rect" id="node8" href="$class_game_manager.html#a2fe172e23aa22b4679eaf3441a4dbfc1" title="GameManager::askToUsehouse\lPower" alt="" coords="533,174,744,215"/>
+<area shape="rect" id="node9" href="$class_u_i_manager.html#a9e3f1eaecc52b40e1367bfc0562bc95b" title="UIManager::showRules" alt="" coords="293,232,452,259"/>
+<area shape="rect" id="node4" href="$class_game_manager.html#a50b889e7789dd87fc9b9a4583b4618b3" title="GameManager::running" alt="" coords="560,21,717,48"/>
+<area shape="rect" id="node6" href="$class_game_manager.html#ae34b97696f44c9bfef87bd305343d415" title="GameManager::askToMoveToken" alt="" coords="529,72,748,99"/>
+<area shape="rect" id="node7" href="$class_game_manager.html#af1a0aeaabcf6f9ca80a1847e5b045d81" title="GameManager::setIsMovement\lAllowed" alt="" coords="800,145,1005,186"/>
+<area shape="rect" id="node10" href="$class_game_manager.html#a4802994a3212c7a67cb835f5f3d065d8" title="GameManager::performOnBoarding" alt="" coords="525,240,752,267"/>
+</map>

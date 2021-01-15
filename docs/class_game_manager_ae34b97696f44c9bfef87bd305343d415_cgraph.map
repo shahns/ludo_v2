@@ -1,0 +1,7 @@
+<map id="GameManager::askToMoveToken" name="GameManager::askToMoveToken">
+<area shape="rect" id="node2" href="$class_game_manager.html#a616992f8ea9ddd41262b9f3bfdf7af14" title="GameManager::killEnemy" alt="" coords="272,81,444,108"/>
+<area shape="rect" id="node3" href="$class_token.html#a46a4ceea00cd23abf2332ecd222a00f5" title="Token::getPoint" alt="" coords="542,5,657,32"/>
+<area shape="rect" id="node4" href="$class_token.html#a8f6a9fd8cbe49e56a8997208133f0110" title="Token::getPosIndex" alt="" coords="530,56,669,83"/>
+<area shape="rect" id="node5" href="$class_token.html#a56867d1b4b067dcbb603aa1b097801ae" title="Token::incrPosIndex" alt="" coords="528,107,671,133"/>
+<area shape="rect" id="node6" href="$class_u_i_manager.html#a53c2921e74922bf9715ed3972f62453a" title="UIManager::showPopupMessage" alt="" coords="492,157,707,184"/>
+</map>

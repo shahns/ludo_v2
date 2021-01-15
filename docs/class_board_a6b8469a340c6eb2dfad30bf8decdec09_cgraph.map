@@ -1,0 +1,4 @@
+<map id="Board::Board" name="Board::Board">
+<area shape="rect" id="node2" href="$class_board.html#aef86fb19dbf2fe649781dc51b1510e8a" title="Board::loadAssets" alt="" coords="152,5,281,32"/>
+<area shape="rect" id="node3" href="$class_renderer.html#a10f2bfcb17999fec104e66811117cee0" title="Renderer::loadTexture" alt="" coords="329,5,480,32"/>
+</map>

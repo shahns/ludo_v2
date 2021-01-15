@@ -1,0 +1,6 @@
+<map id="GameManager::running" name="GameManager::running">
+<area shape="rect" id="node2" href="$class_game_manager.html#afbf874399ea73962362a989697b72ca2" title="GameManager::playerStatus\lUpdate" alt="" coords="211,23,399,65"/>
+<area shape="rect" id="node5" href="$class_game_manager.html#aa95b4070a041f17fb3aa749b380a547e" title="GameManager::validateTurn" alt="" coords="211,89,398,116"/>
+<area shape="rect" id="node3" href="$class_u_i_manager.html#a53c2921e74922bf9715ed3972f62453a" title="UIManager::showPopupMessage" alt="" coords="447,5,661,32"/>
+<area shape="rect" id="node4" href="$class_u_i_manager.html#ae9a42d46c6c44d10d096e2de2573d794" title="UIManager::clean" alt="" coords="491,56,617,83"/>
+</map>

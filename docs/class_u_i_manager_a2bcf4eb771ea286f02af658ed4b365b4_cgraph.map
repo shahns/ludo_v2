@@ -1,0 +1,4 @@
+<map id="UIManager::drawBoard" name="UIManager::drawBoard">
+<area shape="rect" id="node2" href="$class_board.html#a1845216283a171939dcb477dce3a17b8" title="Board::drawBoard" alt="" coords="209,5,336,32"/>
+<area shape="rect" id="node3" href="$class_renderer.html#afbbd4cbf5fd667c539754471c2b30b22" title="Renderer::draw" alt="" coords="384,5,495,32"/>
+</map>
