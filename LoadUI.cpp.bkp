@@ -1,0 +1,61 @@
+/*
+ * LoadUI.cpp
+ *
+ *  Created on: Jan 30, 2019
+ *      Author: vishwajit
+ */
+
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
+#include <iostream>
+#include <string>
+//#include <vector>
+
+
+
+/*!
+ Function to create a texture from a surface of an image
+ @param filename the filename of the image
+ @return returns the SDL_Texture of the image
+ */
+/*
+static SDL_Texture* loadTexture(const char *texture)
+{
+    SDL_Surface *tempSurface = IMG_Load(texture);
+    SDL_Texture *tex = SDL_CreateTextureFromSurface(renderer, tempSurface);
+    SDL_FreeSurface(tempSurface);
+    return tex;
+}
+*/
+/*!
+ Function to draw a texture using Render_Copy
+ @param tex SDL_Texture to draw
+ @param src source SDL_Rect for texture tex
+ @param dest destination SDL_Rect for texture tex
+ @return returns the SDL_Texture of the image
+ */
+/*
+static void draw(SDL_Texture *tex, SDL_Rect src, SDL_Rect dest)
+{
+    SDL_RenderCopy(renderer, tex, &src, &dest);
+}
+*/
+/*!
+ Function to print text on screen
+ @param text text to be printed on the screen
+ @param font true type font to be used while printing, TTF_Font type
+ @param colour colour of the text to printed, SDL_Color type
+ @return returns the SDL_Texture of the text
+ */
+/*
+static SDL_Texture* LoadTextureFromString(const char *text, TTF_Font *font,
+                                              SDL_Color colour)
+{
+    SDL_Surface *tempsurface = TTF_RenderText_Solid(font, text, colour);
+    SDL_Texture *tex = SDL_CreateTextureFromSurface(renderer, tempsurface);
+    SDL_FreeSurface(tempsurface);
+    return tex;
+}
+*/
+

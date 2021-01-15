@@ -1,0 +1,203 @@
+/*
+ * GameManager.h
+ *
+ *  Created on: Jan 30, 2019
+ *      Author: vishwajit
+ */
+
+#ifndef INCLUDE_GAMEMANAGER_H_
+#define INCLUDE_GAMEMANAGER_H_
+#include "UIManager.h"
+#include "Common.h"
+#include "Flags.h"
+#include "GoTPlayer.h"
+#include "Player.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
+#include <iostream>
+#include <string>
+#include <vector>
+
+class GameManager {
+public:
+	GameManager();
+	virtual ~GameManager();
+public:
+	/*!
+	 Constructor for class GameManager\n
+	 Performs initialization for game related requirements.
+	 */
+	GameManager();
+	/*!
+	 Destructor for class GameManager\n
+	 */
+	~GameManager();
+
+	/*!
+	 Handles various events during program life time for e.g. SDL_QUIT,
+	 SDL_KEYDOWN
+	 */
+	void handleEvents();
+
+	/*!
+	 Sets game for first turn
+	 */
+	void initUpdate();
+
+	/*!
+	 Render_Copies various textures to renderer and Render_Presents the
+	 renderer
+	 */
+	void gameStatusUpdate();
+
+	/*!
+	 Getter function to return the running status of game
+	 @return boolean value
+	 */
+	bool running() {
+		return isRunning;
+	}
+
+	/*!
+	 Calculates if perticular player and in turn perticular house is playing
+	 game or not and updates flags accordingly
+	 */
+	void playerStatusUpdate();
+
+	/*!
+	 Validates and sets and keeps track of next and current turn of the
+	 player and check if game is won
+	 @param x current turn
+	 @return int validated current turn
+
+	 */
+	const int validateMyTurn(int x) const;
+
+	/*!
+	 Setter function for setting game type
+	 @param gameType type of the current game {"Traditional", "GoT"}
+	 */
+	void setGameType(GameType type) {
+		gameType = type;
+	}
+
+	/*!
+	 Getter function to get game type
+	 @return type of the game
+	 */
+	std::string getGameType() {
+		return gameType;
+	}
+
+	/*!
+	 Setter function for setting or updating turn text
+	 @param turn house number of the player who will play current turn
+	 */
+	void setTurnText(int turn) {
+		turnText = "Turn: Player " + std::to_string(turn);
+	}
+
+	/*!
+	 a wrpper function asks to move token on the screen and updates token
+	 position using player class
+	 @param playerColour player colour
+	 @param playerNum player token number to move
+	 @param movement is movement allowed for current situation
+	 */
+	void askToMoveWrapper(int playerColour, int playerNum, bool movement);
+
+	/*!
+	 a wrpper function asks to kill enemy token
+	 @param playerColour player colour
+	 @param myNewPoint current location of token
+	 */
+	void killEnemyWrapper(int playerColor, Point myNewPoint);
+
+	/*!
+	 Setter function to set movement status
+	 @param status movement status
+	 */
+	void setIsMovementAllowed(bool status) {
+		isMovementAllowed = status;
+	}
+
+	/*!
+	 Getter function to get game type at the start of the game and show
+	 background on onboarding screen
+	 @return int 0 if selection is made\n 1 if error while displaying the
+	 pop-up\n 2 if no selection made
+	 */
+	const int performOnBoarding();
+
+	/*!
+	 Function for using house specific powers (only for GoT Version)
+	 @param house house number of the player
+	 */
+	void housePower(int house);
+
+	/*!
+	 Setter function to set house power status of player
+	 @param &playerVector movement status
+	 @param powerStatus movement status
+	 */
+	void setAllHousePowers(std::vector<GoTPlayer *> &playerVector,
+			bool powerStatus);
+
+	/*!
+	 Getter to NOR status of all tokens of specific player
+	 @param &playerVector vector consisting all players
+	 @return NORed status of all tokens of playerVector
+	 */
+	bool NorPlayerTokens(std::vector<GoTPlayer *> &playerVector);
+
+private:
+	// game
+	bool isRunning; /**< programme running status*/
+	// SDL_Window *window; /**< SDL_Window for program */
+	FLAGS gameFlags; /**< enum GUIFLAGS */
+
+	// GameManager Related
+	GameType gameType; /**< type of the game normal, GoT */
+	std::string turnText; /**< player turn*/
+	std::string tokenToMoveText = "Type Token Number to move"; /**< info text token to move*/
+	std::string moveInfoText; /**< info text displayed for current turn*/
+	std::string rollInfoText; /**< info text displayed to roll die*/
+	std::string rulesInfoText; /**< info text displayed to show rules*/
+	int dieFace; /**< randomly generated value upon die roll*/
+	/*static*/
+	int whoseChance; /**< tracking current turn*/
+	bool isRedActive, isGreenActive, isYellowActive, isBlueActive; /**< playing status of all four houses*/
+	bool isMovementAllowed; /**< traking current movement status*/
+	bool isDieThrowAllowed; /**< traking current die roll status*/
+	const char *rulesStringTitle; /**< title string for rules popup*/
+	const char *rulesStringBody; /**< body string for rules popup*/
+	UIManager UI;
+	//TODO write explanation
+	void GameManager::processNumKey(uint8_t);
+
+	bool GameManager::NorMyAllPlayers(std::vector<GoTPlayer *> &playerVector);
+	void GameManager::setAllHousePowers(std::vector<GoTPlayer *> &playerVector,
+			bool powerStatus);
+	/*!
+	 asks to move token on the screen and updates token position using player
+	 class
+	 @param playerNum token number to be moved
+	 @param &playerVector vector consisting all players
+	 @param movement is movement allowed for current situation
+	 */
+	void askToMoveToken(int playerNum, std::vector<GoTPlayer *> playerVector,
+			bool movement);
+
+	/*!
+	 Function to implement kill logic
+	 @param myColor color number of the house
+	 @param myNewPosIndex updated position index
+	 */
+	void killEnemy(Point myNewPoint, std::vector<GoTPlayer *> playerVector,
+			std::vector<GoTPlayer *> enemyVector1,
+			std::vector<GoTPlayer *> enemyVector2,
+			std::vector<GoTPlayer *> enemyVector3);
+};
+
+#endif /* INCLUDE_GAMEMANAGER_H_ */
